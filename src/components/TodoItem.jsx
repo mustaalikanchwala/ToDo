@@ -16,7 +16,7 @@ const taskCompleted = ()=>{
 }
 
     return (
-        <div className={`flex border border-black/10 shadow-sm shadow-white/10 px-3 py-1.5 gap-x-3 duration-300 text-black 
+        <div className={`flex border rounded-4xl border-black/10 shadow-sm shadow-white/10 px-3 py-3 font-bold gap-x-3 duration-300 text-black 
             ${todo.completed ? "bg-red-500" : "bg-amber-400" }
             `}>
                 <input type="checkbox" 

@@ -26,7 +26,7 @@ const add = (e)=>{
       />
       <button
         type="submit"
-        className="rounded-r-lg px-3 py-5 bg-green-500 hover:bg-green-700 shrink-0 "
+        className="rounded-r-lg px-3 py-5 bg-green-500 hover:bg-green-600 shrink-0 "
       >
         Add
       </button>
