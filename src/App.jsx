@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { TodoProvider, useTodo } from "./context/Index";
-import { TodoForm, TodoItem } from "./components";
+import { TodoForm, TodoItem } from "./components/Index";
 import { motion, AnimatePresence } from "framer-motion";
 
 // // With this temporarily:
