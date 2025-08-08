@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { TodoProvider, useTodo  } from "./context/Index";
-import { TodoForm , TodoItem } from "./components";
+// import { TodoForm , TodoItem } from "./components";
+// With this temporarily:
+import TodoForm from "./components/TodoForm";
+import TodoItem from "./components/TodoItem";
 function App() {
   const [todo,setTodo] = useState([]);
 // prevtodo is an array 
